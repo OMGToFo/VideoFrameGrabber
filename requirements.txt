@@ -2,3 +2,4 @@ numpy
 opencv_python
 streamlit
 opencv-contrib-python
+opencv-python-headless
