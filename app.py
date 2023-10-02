@@ -84,7 +84,7 @@ if uploaded_file is not None:
     # User input for frame grab interval
     #frame_interval = st.slider("Select frame grab interval (in seconds)", 1, 10, 1)
 
-    frame_interval = st.number_input("Select frame grab interval (in seconds)", min_value=None, max_value=None, value=1.0, step=1.0)
+    frame_interval = st.number_input("Select frame grab interval (in seconds)", min_value=0.05, max_value=None, value=1.0, step=1.0)
 
     # Convert video to still frames
     frames, timecodes = extract_stills(video_path, int(frame_interval * 30))  # Assuming 30 frames per second
