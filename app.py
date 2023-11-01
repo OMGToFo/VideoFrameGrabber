@@ -67,7 +67,7 @@ def get_binary_file_downloader_link(file_path, download_link_text):
 
 
 
-
+st.set_page_config(page_title='VideoFrameGrabber')
 
 
 st.title("Video to Stills Converter")
